@@ -1,0 +1,2 @@
+tensorboard --logdir=runs
+python main.py tiny-imagenet-200 --gpu 0 --resume checkpoint.pth.tar
